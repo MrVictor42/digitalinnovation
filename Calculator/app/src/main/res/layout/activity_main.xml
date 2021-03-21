@@ -7,28 +7,28 @@
     tools:context=".MainActivity"
 >
 
+
     <EditText
-        android:id="@+id/note1"
+        android:id="@+id/faults"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="232dp"
         android:layout_marginEnd="75dp"
         android:background="@android:color/darker_gray"
         android:ems="10"
-        android:hint="Note 1"
+        android:hint="Faults"
         android:inputType="number"
         android:maxLength="2"
         android:padding="20dp"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-    />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/note2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="128dp"
         android:layout_marginEnd="75dp"
         android:background="@android:color/darker_gray"
         android:ems="10"
@@ -38,32 +38,46 @@
         android:padding="20dp"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-    />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/note1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="75dp"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:hint="Note 1"
+        android:inputType="number"
+        android:maxLength="2"
+        android:padding="20dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/buttonCalculate"
         android:layout_width="207dp"
         android:layout_height="72dp"
-        android:layout_marginTop="240dp"
+        android:layout_marginTop="328dp"
         android:layout_marginEnd="75dp"
         android:padding="20dp"
         android:text="Calculate"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/resultText"
-        android:layout_width="207dp"
-        android:layout_height="200dp"
+        android:layout_width="204dp"
+        android:layout_height="215dp"
+        android:layout_marginTop="332dp"
         android:layout_marginEnd="75dp"
-        android:layout_marginTop="340dp"
-        android:text="resultSAHKDHASKJHDSAKHSA"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-    />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
